@@ -1,29 +1,30 @@
 # rock_paper_scissors
 a beginner python rock-paper-scissor game 
 
-the code:
-import random
-choices=["rock","paper","scissor"]
-user=input("Pick rock ,paper or scissor:").lower()
+# Rock Paper Scissors 
+This is a beginner Python project where the user plays Rock Paper Scissors against the computer.
 
-com=random.choice(choices)
+# Features
+* User vs Computer gameplay
+* Random computer choices
+* Input validation
+* Simple and interactive
 
-if user not in choices:
-  print("Invalid,try again")
-  exit()
-print("Computer choses",com)
+# What I learned
+* Python basics
+* Conditional statements
+* Lists and random module
+* User input handling
+
+# How to run
+1. Download the file
+2. Run the Python script:
+   python rock_paper_scissors.py
+
+# Future Improvements
+* Add score tracking
+* Multiple rounds
+* GUI version
 
 
-if user==com:
-  print("It's a tie!!!")
-elif user=="rock" and com=="scissor":
-  print("You win :)")
-elif user=="paper" and com=="rock":
-  print("You win :)")
-elif user=="scissor" and com=="paper":
-  print("You win :)")
-else:
-  print("you lose :(")
-  
-
-
+This project is part of my learning journey as a first-year Computer Engineering student.
